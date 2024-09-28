@@ -1,0 +1,37 @@
+.header {
+  height: 10vh;
+  width: 100%;
+  background-color: rgb(80, 79, 82);
+  display: flex;
+  position: fixed;
+  top: 0;
+  left: 0;
+  z-index: 10;
+}
+
+.logout {
+  color: white;
+  position: absolute;
+  right: 50px;
+  font-size: 40px;
+  top: 20px;
+  cursor: pointer;
+  transition: all 0.5s;
+}
+
+.logout:hover {
+  transform: scale(1.08);
+}
+
+.headerLeft {
+  color: white;
+  display: flex;
+  align-items: center;
+  padding-left: 2rem;
+}
+.headerLeft h3 {
+  margin-left: 10px;
+  margin-right: 10px;
+  font: 400 1vmax cursive;
+  font-size: 25px;
+}
