@@ -1,0 +1,51 @@
+.landingContainer {
+  width: 100vw;
+  height: 100vh;
+  max-width: 100%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: rgb(231, 231, 231);
+  position: fixed;
+  top: 0%;
+  left: 0;
+}
+
+.landingBox {
+  background-color: white;
+  width: 25vw;
+  height: 60vh;
+  box-sizing: border-box;
+  overflow: hidden;
+  transition: all 0.5s;
+}
+
+.landingHeader {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  min-height: 50px;
+  padding-top: 50px;
+  color: rgba(0, 0, 0, 0.678);
+  font: 300 1vmax "Roboto";
+  font-size: 60px;
+}
+
+.buttonContainer {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-direction: column;
+  padding: 2rem;
+}
+
+.buttonContainer button {
+  margin: 2rem;
+  font-size: 20px;
+}
+
+@media screen and (max-width: 650px) {
+  .landingBox {
+    width: 90vw;
+  }
+}

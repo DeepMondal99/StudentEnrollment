@@ -1,0 +1,29 @@
+Explaining the approch to solution:
+
+There is a Landing page which give us Two option to access the choice.
+	1. Admin
+	2. Student
+
+If you select 'Student' then a enroll form will opened and you can enroll Yourself as a Student
+oR
+If you Select 'Admin' then a login/signup form is opened, if you have an account then you have to login by providing username and password or if you don't have an account you have to signup first by providing username and password.
+
+for authentication i am using firebase's email and password authentication. But we are getting only username and password thats why i am concatenateimg '  @mail.com ' with username before sending to firebase.
+
+Admin can access enrolled data then admin can logout by clicking logout button. Logout button will redirect to login/signup page.
+
+
+
+Technology and reason behind choices:
+
+Reactjs:-  I am useing reactjs for Frontend. ReactJS is a stronger framework because of its ability to break down the complex interface and allow users to work on individual components.
+The React basically allows developers to utilize individual parts of their application on both client-side and the server-side, which ultimately boosts the speed of the development process.
+Compared to other frontend frameworks, the React code is easier to maintain and is flexible due to its modular structure. This flexibility, in turn, saves huge amount of time and cost to businesses.
+
+
+Firebase:- I am using firebase for Backend. i am using it for authentication and storeing the data. For storeing the data i am collectection Firebase-FireStore and for storeing images i am firebase-Cloud(Storage). The Firebase authentication is the feature most apps require to recognize the identity of the users. This authentication solution provides backend services, easy-to-use firebase SDKs, and ready-made UI libraries to authenticate users to your app.
+
+CSS:- I am using css intead of Tailwind css or any of css framework because i want more control in my design part.CSS allows you to impart creative styles and layouts to your websites, making them unique and attractive. With CSS, you can experiment with page layouts, tweak the colors and fonts, add cool effects to images, and so much more
+
+
+The app link- https://task-internship.netlify.app/
